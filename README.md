@@ -11,7 +11,7 @@ Create a place where users will be able to store knowledge of the pokemon they h
 * User will be able to enter information at the very bottom of the screen to add shown pokemon.
 * User will be abe to log out and info will be saved upon leaving.
 
-Wireframe: ![Image of WireFrame](https://imgur.com/a/yVD2bXY)
+Wireframe: ![Image of WireFrame](https://i.imgur.com/vyGw17V.jpg)
 
 #### *MVP Checklist:*</br>
 * Create a login and signup screen
