@@ -1,0 +1,279 @@
+body {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.headertwo {
+    display: flex;
+    background-color: orange;
+    border-radius: 10px;
+    width: 750px;
+    padding: 30px;
+    margin: -40px;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+
+ul li {
+    list-style: none;
+  }
+
+h1 {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    margin: 0;
+  }
+
+.allContent {
+    max-width: 1000px;
+    min-width: 800px;
+} 
+
+.signUpScreen,
+.loginScreen {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.signup-form,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.signup-form * {
+    margin: 5px 0;
+    border: none;
+}
+
+.login-form * {
+    margin: 5px 0;
+    border: none;
+}
+
+input {
+    font-size: 1.5rem;
+}
+
+input[type="submit"] {
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+input[type="submit"]:hover {
+    color: red;
+    background-color: grey;
+  }
+
+.signUpButton,
+.loginButton {
+  width: 400px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color:black;
+  color: white;
+}
+
+.loginButton:hover {
+    color: red;
+    background-color: grey;
+  }
+
+.signUpButton:hover {
+    color: red;
+    background-color: grey;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 0 20px;
+  }
+  .dashboard {
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 50%;
+    margin-top: 2%;
+    
+  }
+  .signOutButton {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: red;
+  }
+
+  .buttonRep{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .kanto{
+      border: solid 6px black;
+        height: 100px;
+        width: 400px;
+        margin: 100px;
+        text-align: center;
+        padding-top: 50px;
+        cursor: pointer;
+  }
+
+  .johto{
+    border: solid 6px black;
+      height: 100px;
+      width: 400px;
+      margin: 60px;
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 50px;
+      cursor: pointer;
+}
+
+.kantoPokemon {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    min-width: 50%;
+    margin-top: 5%;
+
+}
+
+.kantoPokemonBox {
+
+    display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1600px;
+    overflow: scroll;
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+.choose{
+    text-align: center;
+}
+
+.pokemonActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    width: 400px;
+    height: 200px;
+    border: solid black 6px;
+    margin-right: 50px;
+}
+
+.delete {
+    width: 400px;
+    height: 200px;
+    border: solid black 6px;
+    margin-left: 50px;
+    
+}
+
+
+.pokemon {
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.pokemon .img-container img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+
+
+  .hidden {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

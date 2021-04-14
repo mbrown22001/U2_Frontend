@@ -1,0 +1,26 @@
+{
+  "name": "u2_frontend",
+  "version": "1.0.0",
+  "description": "Create a place where users will be able to store knowledge of the pokemon they have found while exploring.</br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrown22001/U2_Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrown22001/U2_Frontend/issues"
+  },
+  "homepage": "https://github.com/mbrown22001/U2_Frontend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "rowdy-logger": "^1.0.2"
+  }
+}
