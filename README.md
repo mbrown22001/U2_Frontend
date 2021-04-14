@@ -13,6 +13,8 @@ Create a place where users will be able to store knowledge of the pokemon they h
 
 Wireframe: ![Image of WireFrame](https://i.imgur.com/vyGw17V.jpg)
 
+ERD: ![Image of ERD](https://i.imgur.com/ISa8DVZ.png?1)
+
 #### *MVP Checklist:*</br>
 * Create a login and signup screen
 * Create a region selection screen. Start with two regions.
